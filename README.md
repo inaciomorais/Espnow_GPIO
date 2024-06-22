@@ -1,7 +1,7 @@
 # Espnow_GPIO
 ESPNOW GPIO Example
 
-Remote Control - Arduino IDE
+100m 330ft Remote Control - Arduino IDE
 
 https://www.youtube.com/watch?v=QwCtRe0ZsCY
 
