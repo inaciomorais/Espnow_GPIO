@@ -15,7 +15,7 @@
 #define LED_PIN_4 15
 
 unsigned long lastTime = 0;  
-unsigned long failSafeDelay = 10;  // 10ms Timer FailSafe
+unsigned long failSafeDelay = 10;
 
   // Structure to receive data matching the sender structure
 typedef struct struct_message {
@@ -73,7 +73,7 @@ void setup() {
 }
  
 void loop() {
-    // Turning Outputs Off while Connection Lost
+    // Turning Off Outputs When Connection is Lost
   if ((millis() - lastTime) > failSafeDelay) {
     digitalWrite(LED_PIN_1, LOW);
     digitalWrite(LED_PIN_2, LOW);
