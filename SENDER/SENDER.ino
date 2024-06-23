@@ -21,7 +21,7 @@ bool pb3_status = 0;
 bool pb4_status = 0;
 bool sendit = 0;
 
-  /* ----------- REPLACE WITH RECEIVER MAC ADDRESS ----------- */
+  /* ----------- Replace With RECEIVER MAC Address ----------- */
 uint8_t broadcastAddress[] = {0x94, 0xB5, 0x55, 0x26, 0x44, 0x58};
 
   // Structure to send data matching the receiver structure
