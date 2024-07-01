@@ -5,13 +5,13 @@
 #include <esp_now.h>
 #include <WiFi.h>
 
-  // pin 22 - GPIO2
+  // D2  - GPIO2
 #define LED_PIN_1 2
-  // pin 18 - GPIO12
+  // D12 - GPIO12
 #define LED_PIN_2 12
-  // pin 17 - GPIO14
+  // D14 - GPIO14
 #define LED_PIN_3 14
-  // pin 21 - GPIO15
+  // D15 - GPIO15
 #define LED_PIN_4 15
 
 unsigned long lastTime = 0;  
